@@ -1,0 +1,37 @@
+# EEG recordings and local datasets
+data/
+recordings/
+patient_data/
+rawData/
+*.edf
+*.bdf
+*.gdf
+*.fif
+*.set
+*.fdt
+*.vhdr
+*.vmrk
+*.eeg
+*.xdf
+*.mat
+
+# Generated outputs and models
+outputs/
+results/
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Local environment and editor files
+.env
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.asv
+.DS_Store
+__MACOSX/
+._*
