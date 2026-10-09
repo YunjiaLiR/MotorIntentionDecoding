@@ -28,3 +28,9 @@ Do not commit identifiable EEG recordings, participant metadata, generated model
 ## Status
 
 Archived research code. Scripts are preserved for traceability, and no claim is made that every script runs as-is without the original data/environment.
+
+## Source ZIP audit (October 2026)
+
+A separate audit of the original `online.zip` found 18 MATLAB functions in `utilities.zip`, 3 model-helper MATLAB functions in `model.zip`, and additional top-level scripts. The current GitHub repository **does not yet include all nested archive files**. A complete extracted source snapshot was prepared separately for review. In particular, the MATLAB `plot_tfr.m`, `plot_topomap.m`, preprocessing variants and epoching helpers should not be considered present in GitHub until imported and verified.
+
+Name similarities do not prove duplicate behaviour: `cutEpoch.m`, `cutEpoch1.m`, `cutepoch3.m` and the preprocessing variants should remain independently traceable until compared and tested. Fitted model files should be reviewed before public release.
